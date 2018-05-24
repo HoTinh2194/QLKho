@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HangTonModelStoreContainer" CdmEntityContainer="HangTonEntities">
+    <FunctionImportMapping FunctionImportName="sp_Nhaphang" FunctionName="HangTonModel.Store.sp_Nhaphang" />
+  </EntityContainerMapping>
+</Mapping>

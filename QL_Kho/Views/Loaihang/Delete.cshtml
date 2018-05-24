@@ -1,0 +1,43 @@
+﻿@model QL_Kho.Models.Loai
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2>XÁC NHẬN THÔNG TIN LOẠI HÀNG CẦN XÓA</h2>
+
+<h3 style=" color:red">Bạn có chắc chắn xóa không?</h3>
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Mã loại:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaLoai)
+        </dd>
+        <dt>
+           Tên loại:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenLoai)
+        </dd>
+        @if (TempData["LoiXoaSach"] != null)
+        {
+            <h3 style="color:red; text-align:center">@TempData["LoiXoaSach"] </h3>
+        }
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

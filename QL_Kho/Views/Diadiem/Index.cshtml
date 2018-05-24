@@ -1,0 +1,45 @@
+﻿@model IEnumerable<QL_Kho.Models.Diadiem>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2>Quản lí thông tin địa điểm</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" border="1">
+    <tr>
+        <th style="width:150px">
+            Mã địa điểm
+        </th>
+        <th style="width:150px">Tên địa điểm
+        </th>
+        <th style="width:100px">Quản lí địa điểm
+           
+        </th>
+        <th style="width:200px"></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaDD)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenDD)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quanly)
+        </td>
+        <td style="text-align:center">
+            @Html.ActionLink("Edit", "Edit", new { id=item.MaDD }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MaDD }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MaDD })
+        </td>
+    </tr>
+}
+
+</table>

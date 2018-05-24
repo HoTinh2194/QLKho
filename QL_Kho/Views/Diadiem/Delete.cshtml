@@ -1,0 +1,52 @@
+﻿@model QL_Kho.Models.Diadiem
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+
+<h2>XÁC NHẬN THÔNG ĐỊA ĐIỂM CẦN XÓA</h2>
+<h3 style=" color:red">Bạn có chắc chắn xóa không ?</h3
+
+<div>
+   
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Mã địa điểm:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaDD)
+        </dd>
+        <dt>
+           Tên địa điểm:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenDD)
+        </dd>
+
+        <dt>
+            Quản lí địa điểm:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quanly)
+        </dd>
+
+    </dl>
+    @if (TempData["LoiXoaSach"] != null)
+    {
+        <h3 style="color:red; text-align:center">@TempData["LoiXoaSach"] </h3>
+    }
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,49 @@
+﻿@model IEnumerable<QL_Kho.Models.Mathang>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2>Quản lí thông tin mặt hàng</h2>
+<p>
+    @Html.ActionLink("Create New", "ThemMH")
+</p>
+    <table class="table" border="1">
+        <tr>
+            <th style="width:200px">Mã mặt hàng </th>
+            <th style="width:200px">Tên mặt hàng </th>
+            <th style="width:100px">Loại hàng</th>
+            <th style="width:100px">Số lượng hàng</th>
+            <th style="width:150px">Đơn giá</th>
+            <th style="width:200px"></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaMH)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenMH)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Loai)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoLuong)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dongia)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.MaMH }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.MaMH }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.MaMH })
+                </td>
+
+            </tr>
+        }
+
+    </table>
+   

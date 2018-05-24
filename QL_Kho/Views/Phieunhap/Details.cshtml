@@ -1,0 +1,72 @@
+﻿
+@model IList<QL_Kho.Models.CTPHIEUNHAP>
+
+@{
+    ViewBag.Title = "DetailsCT";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2>Chi tiết phiếu nhập </h2>
+<div class="row col-md-8">
+    <table class="id">
+        <p><b>- Số phiếu nhập:</b> @ViewBag.MaPhieu</p>
+        <p><b>- Tên nhân viên:</b> @ViewBag.TenNhanVien</p>
+        <p><b>- Ngày lập phiếu:</b> @ViewBag.NgayLap</p>
+    </table>
+    
+    <table class="table">
+        <tr>
+            <th>
+                Số Phiếu Nhập
+            </th>
+            <th>
+                Mặt hàng
+            </th>
+
+            <th>
+                Số lượng nhập
+            </th>
+            <th>
+                Giá nhập
+            </th>
+            <th>
+                Tổng tiền
+            </th>
+
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Manhap)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mathang.TenMH)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoluongNhap)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gianhap)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tongtien)
+                </td>
+                <td style="text-align:center">
+                    <a href="@Url.Action("DeletePN","CTPhieu",new { id = item.Manhap})">
+                        <button type="button" class="btn btn-info ">Xóa</button>
+                    </a>
+                </td>
+            </tr>
+
+           
+        }
+
+    </table>
+
+
+
+</div>

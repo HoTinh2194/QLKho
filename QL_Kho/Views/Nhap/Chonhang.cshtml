@@ -1,0 +1,91 @@
+﻿@using QL_Kho.Models
+
+
+@model List<Nhap>
+@{
+    ViewBag.Title = "Chonhang";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2>DANH SÁCH MẶT HÀNG ĐƯỢC NHẬP</h2>
+<table align="center" border="1">
+    <tr style="text-align:center;font-weight:bold;color:black">
+        <td width="200px">Mã mặt hàng</td>
+        <td width="200px">Tên mặt hàng</td>
+        <td width="200px">Số lượng</td>
+        <td width="200px">Ðơn giá</td>
+        <td width="200px">Thành tiền</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr style="text-align:center;color:black">
+            <td>@item.iMaMH</td>
+            <td>@item.sTenMH</td>
+            @using (Html.BeginForm("CapnhatGiohang", "Nhap", new { @iMaSP = item.iMaMH }))
+            {
+                <td>
+                    @item.iSoluong
+                </td>
+                <td>@String.Format("{0:0,0}", item.dDonggia)</td>
+                <td>@String.Format("{0:0,0}", item.dThanhtien)</td>
+            }
+        </tr>
+    }
+    <tr style="font-weight:bold;text-align:right;color:red">
+        <td colspan="4">Số lượng sản phẩm: @ViewBag.Tongsoluong</td>
+        <td colspan="5">Tổng tiền: @String.Format("{0:0,000}", ViewBag.TongTien) VNÐ</td>
+    </tr>
+    <tr style="font-weight:bold;text-align:right;color:blue">
+        <td colspan="9">
+            @Html.ActionLink("TRỞ VỀ GIỎ HÀNG", "Nhap", "Nhap")
+        </td>
+    </tr>
+
+</table>
+<br />
+<h2 style="text-align:center">Nhân viên nhập hàng</h2>
+@{
+    Nhanvien nv = (Nhanvien)Session["Taikhoan"];
+}
+<table align="center">
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+        <tr style="height:40px">
+            <td>Họ :</td>
+            <td style="font-weight:bold">@nv.Ho</td>
+        </tr>
+        <tr style="height:40px">
+            <td>Ten:</td>
+            <td style="font-weight:bold">@nv.Ten</td>
+        </tr>
+
+        <tr style="height:40px">
+            <td>Phai:</td>
+            <td style="font-weight:bold">@nv.Phai</td>
+        </tr>
+        <tr style="height:40px">
+            <td>Địa chỉ:</td>
+            <td style="font-weight:bold">@nv.Diachi</td>
+        </tr>
+        <tr style="height:40px">
+            <td>Dt:</td>
+            <td style="font-weight:bold">@nv.SDT</td>
+        </tr>
+        <tr style="height:40px">
+            <td></td>
+            <td>
+                <input type="submit" value="ÐỒNG Ý NHẬP HÀNG" />
+
+            </td>
+        </tr>
+            @*<tr style="color:blue; text-align:right">
+                    <td colspan="9">@Html.ActionLink("Dong y", "Index", "Mathang")</td>
+                </tr>*@
+
+
+    }
+</table>
+
+
+

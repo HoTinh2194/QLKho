@@ -1,0 +1,82 @@
+﻿@model IEnumerable<QL_Kho.Models.Nhanvien>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2>Quản lí thông tin nhân viên</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" border="1">
+    <tr>
+        <th style="width:150px">
+            Mã NV
+        </th>
+        <th style="width:150px">
+            Họ NV
+        </th>
+        <th style="width:150px">
+           Tên NV
+        </th>
+        <th style="width:50px">
+            Phái
+        </th>
+        <th style="width:150px">
+            Năm sinh
+        </th>
+        <th style="width:150px">
+            Địa chỉ
+        </th>
+        <th style="width:150px">
+           Điện thoại
+        </th>
+        <th style="width:100px">
+           Tài khoản
+        </th>
+        <th style="width:100px">
+            Mật khẩu
+        </th>
+        <th style="width:220px"></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaNV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ho)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ten)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Namsinh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Diachi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SDT)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.taikhoan)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.matkhau)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MaNV }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MaNV }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MaNV })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,31 @@
+﻿@model QL_Kho.Models.Diadiem
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2>THÔNG TIN ĐỊA ĐIỂM CÁC KHO HÀNG</h2>
+
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Tên địa điểm:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TenDD)
+        </dd>
+        <dt>
+            Quản lí địa điểm
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Quanly)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaDD }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

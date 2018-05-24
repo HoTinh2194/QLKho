@@ -1,0 +1,53 @@
+﻿@model IEnumerable<QL_Kho.Models.CTPHIEUNHAP>
+
+@{
+    ViewBag.Title = "IndexPN";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2>DANH SÁCH CHI TIẾT PHIẾU NHẬP</h2>
+<p>
+    @Html.ActionLink("Back", "Index", "Phieunhap")
+</p>
+<table class="table">
+    <tr>
+        <th>
+           Số phiếu nhập
+        </th>
+        <th>
+            Mặt hàng
+        </th>
+        <th>
+           Số lượng nhập
+        </th>
+        <th>
+            Giá nhập
+        </th>
+        <th>
+            Tổng tiền
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Manhap)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Mathang.TenMH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SoluongNhap)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gianhap)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tongtien)
+        </td>
+        
+    </tr>
+}
+
+</table>

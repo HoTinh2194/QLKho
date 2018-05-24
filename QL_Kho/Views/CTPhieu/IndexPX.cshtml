@@ -1,0 +1,54 @@
+﻿@model IEnumerable<QL_Kho.Models.CTPHIEUXUAT>
+
+@{
+    ViewBag.Title = "IndexPX";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2>DANH SÁCH CHI TIẾT PHIẾU XUẤT</h2>
+
+<p>
+    @Html.ActionLink("Back", "Index","Phieuxuat")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Số phiếu xuất
+        </th>
+        <th>
+           Mặt hàng
+        </th>
+        <th>
+            Số lượng xuất
+        </th>
+        <th>
+           Giá xuất
+        </th>
+        <th>
+           Tổng tiền
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Maxuat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Mathang.MaMH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SoluongXuat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GiaXuat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TongTien)
+        </td>
+       
+    </tr>
+}
+
+</table>

@@ -1,0 +1,61 @@
+﻿@model IList<QL_Kho.Models.CTPHIEUXUAT>
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2>CHI TIẾT PHIẾU XUẤT</h2>
+<div class="row col-md-8">
+    <table class="id">
+        <p><b>- Số phiếu xuất:</b> @ViewBag.MaPhieu</p>
+        <p><b>- Tên nhân viên:</b>  @ViewBag.TenNhanVien</p>
+        <p><b>- Ngày lập phiếu:</b> @ViewBag.NgayLap</p>
+    </table>
+
+    <table class="table">
+        <tr>
+            <th>
+                Số Phiếu Xuất
+            </th>
+            <th>
+                Mặt hàng
+            </th>
+
+            <th>
+                Số lượng xuất
+            </th>
+            <th>
+                Giá xuất
+            </th>
+            <th>
+                Tổng tiền
+            </th>
+
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Maxuat)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mathang.TenMH)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoluongXuat)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GiaXuat)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TongTien)
+                </td>
+               
+            </tr>
+        }
+
+    </table>
+    </div>

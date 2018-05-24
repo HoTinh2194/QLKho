@@ -1,0 +1,45 @@
+﻿<style type="text/css">
+    #CHON a {
+        clear: both;
+        background-color: red;
+        color: white;
+        width: 120px;
+        height: 35px;
+        display: block;
+        float: right;
+        text-align: center;
+        padding-top: 10px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        #CHON a:hover {
+            background-color: gray;
+            color: red;
+        }
+</style>
+
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2>CHI TIẾT THÔNG TIN MẶT HÀNG</h2>
+<div>
+
+    <div style="width:60%; float:left; padding:10px">
+        <h4 style=" color:black"> Mã mặt hàng : @Model.MaMH</h4>
+        <h4 style=" color:black"> Tên mặt hàng : @Model.TenMH</h4>
+        <h4 style=" color:black"> Số lượng: @Model.SoLuong</h4>
+        <p style="color:black">Đơn giá : <span style="color:black; font-size:16pt">@Model.Dongia VND</span></p>
+    </div>
+    <div>
+        <div id="CHON" style="color:black">
+            <a href="@Url.Action("ThemGiohang","Nhap",new { @iMaMH=Model.MaMH,@strURL=Request.Url.ToString()})" class="list-group-item">
+              CHON
+            </a>
+        </div>
+
+    </div>
+</div>

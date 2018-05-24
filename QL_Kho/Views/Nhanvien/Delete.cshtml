@@ -1,0 +1,99 @@
+﻿@model QL_Kho.Models.Nhanvien
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2>XÁC NHẬN THÔNG TIN SINH VIÊN CẦN XÓA</h2>
+
+<h3 style=" color:red">Bạn có chắc muốn xóa không?</h3>
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Mã NV
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaNV)
+        </dd>
+        <dt>
+            Họ NV
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ho)
+        </dd>
+
+        <dt>
+           Tên NV
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ten)
+        </dd>
+
+        <dt>
+           Phái
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phai)
+        </dd>
+
+        <dt>
+           Năm sinh
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Namsinh)
+        </dd>
+
+        <dt>
+            Địa chỉ
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Diachi)
+        </dd>
+
+        <dt>
+           Điện thoại
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SDT)
+        </dd>
+
+        <dt>
+           Tài khoản
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.taikhoan)
+        </dd>
+
+        <dt>
+           Mật khẩu
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.matkhau)
+        </dd>
+@if (TempData["LoiXoaSach"] != null)
+{
+    <h3 style="color:red; text-align:center">@TempData["LoiXoaSach"] </h3>
+}
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

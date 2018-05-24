@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HangTonModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="HangTonEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="sp_Nhaphang">
+      <Parameter Name="Manhap" Mode="In" Type="Int32" />
+      <Parameter Name="MaMH" Mode="In" Type="Int32" />
+      <Parameter Name="SoluongNhap" Mode="In" Type="Int32" />
+      <Parameter Name="Gianhap" Mode="In" Type="Double" />
+      <Parameter Name="Tongtien" Mode="In" Type="Double" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

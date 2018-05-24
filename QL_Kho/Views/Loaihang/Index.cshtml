@@ -1,0 +1,40 @@
+﻿@model IEnumerable<QL_Kho.Models.Loai>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2>Quản lí thông tin loại hàng</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" border="1">
+    <tr>
+        <th style=" width:150px">
+            Mã loại
+        </th>
+        <th style=" width:150px">
+            Tên loại
+        </th>
+        <th style=" width:200px"></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaLoai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenLoai)
+        </td>
+        <td style=" text-align:center">
+            @Html.ActionLink("Edit", "Edit", new { id=item.MaLoai }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MaLoai }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MaLoai })
+        </td>
+    </tr>
+}
+
+</table>

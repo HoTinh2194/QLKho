@@ -1,0 +1,63 @@
+﻿@model IEnumerable<QL_Kho.Models.KhoHang>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2>Quản lí thông tin kho hàng</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" border="1">
+    <tr>
+        <th style="width:150px">
+            Mã kho
+        </th>
+        <th style="width:150px">Tên kho
+        </th>
+        <th style="width:100px">Nhân viên  
+        </th>
+        <th style="width:150px">Địa chỉ
+        </th>
+        <th style="width:100px">Địa điểm
+        </th>
+        <th style="width:150px">Số điện thoại
+        </th>
+        <th style="width:100px">Loại hàng</th>
+        <th style="width:150px"></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaKH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenKH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaNV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Diachi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaDD)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SDT)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Loai)
+        </td>
+        <td style="text-align:center">
+            @Html.ActionLink("Edit", "Edit", new { id=item.MaKH }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MaKH }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MaKH })
+        </td>
+    </tr>
+}
+
+</table>

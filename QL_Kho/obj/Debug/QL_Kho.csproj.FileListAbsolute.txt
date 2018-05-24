@@ -1,0 +1,186 @@
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\ApplicationInsights.config
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\QL_Kho.dll.config
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\QL_Kho.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\QL_Kho.pdb
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Antlr3.Runtime.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.Web.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Microsoft.ApplicationInsights.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Newtonsoft.Json.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\System.Web.Helpers.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\System.Web.Mvc.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\System.Web.Optimization.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\System.Web.Razor.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\System.Web.WebPages.Deployment.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\System.Web.WebPages.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\System.Web.WebPages.Razor.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\WebGrease.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\System.Web.Helpers.xml
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\System.Web.Mvc.xml
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\System.Web.Optimization.xml
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\System.Web.Razor.xml
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\System.Web.WebPages.xml
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\System.Web.WebPages.Deployment.xml
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\System.Web.WebPages.Razor.xml
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Antlr3.Runtime.pdb
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Newtonsoft.Json.xml
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Microsoft.ApplicationInsights.xml
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.Web.xml
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\obj\Debug\QL_Kho.csprojResolveAssemblyReference.cache
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\obj\Debug\QL_Kho.csproj.CoreCompileInputs.cache
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\obj\Debug\QL_Kho.dll
+C:\Users\tinhtinh\Desktop\QL_Kho\QL_Kho\obj\Debug\QL_Kho.pdb
+G:\QL_Kho\QL_Kho\bin\ApplicationInsights.config
+G:\QL_Kho\QL_Kho\bin\QL_Kho.dll.config
+G:\QL_Kho\QL_Kho\bin\QL_Kho.dll
+G:\QL_Kho\QL_Kho\bin\QL_Kho.pdb
+G:\QL_Kho\QL_Kho\bin\Antlr3.Runtime.dll
+G:\QL_Kho\QL_Kho\bin\EntityFramework.dll
+G:\QL_Kho\QL_Kho\bin\EntityFramework.SqlServer.dll
+G:\QL_Kho\QL_Kho\bin\Microsoft.AI.Agent.Intercept.dll
+G:\QL_Kho\QL_Kho\bin\Microsoft.AI.DependencyCollector.dll
+G:\QL_Kho\QL_Kho\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\QL_Kho\QL_Kho\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\QL_Kho\QL_Kho\bin\Microsoft.AI.Web.dll
+G:\QL_Kho\QL_Kho\bin\Microsoft.AI.WindowsServer.dll
+G:\QL_Kho\QL_Kho\bin\Microsoft.ApplicationInsights.dll
+G:\QL_Kho\QL_Kho\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\QL_Kho\QL_Kho\bin\Microsoft.Web.Infrastructure.dll
+G:\QL_Kho\QL_Kho\bin\Newtonsoft.Json.dll
+G:\QL_Kho\QL_Kho\bin\System.Web.Helpers.dll
+G:\QL_Kho\QL_Kho\bin\System.Web.Mvc.dll
+G:\QL_Kho\QL_Kho\bin\System.Web.Optimization.dll
+G:\QL_Kho\QL_Kho\bin\System.Web.Razor.dll
+G:\QL_Kho\QL_Kho\bin\System.Web.WebPages.Deployment.dll
+G:\QL_Kho\QL_Kho\bin\System.Web.WebPages.dll
+G:\QL_Kho\QL_Kho\bin\System.Web.WebPages.Razor.dll
+G:\QL_Kho\QL_Kho\bin\WebGrease.dll
+G:\QL_Kho\QL_Kho\bin\EntityFramework.xml
+G:\QL_Kho\QL_Kho\bin\EntityFramework.SqlServer.xml
+G:\QL_Kho\QL_Kho\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\QL_Kho\QL_Kho\bin\System.Web.Helpers.xml
+G:\QL_Kho\QL_Kho\bin\System.Web.Mvc.xml
+G:\QL_Kho\QL_Kho\bin\System.Web.Optimization.xml
+G:\QL_Kho\QL_Kho\bin\System.Web.Razor.xml
+G:\QL_Kho\QL_Kho\bin\System.Web.WebPages.xml
+G:\QL_Kho\QL_Kho\bin\System.Web.WebPages.Deployment.xml
+G:\QL_Kho\QL_Kho\bin\System.Web.WebPages.Razor.xml
+G:\QL_Kho\QL_Kho\bin\Antlr3.Runtime.pdb
+G:\QL_Kho\QL_Kho\bin\Newtonsoft.Json.xml
+G:\QL_Kho\QL_Kho\bin\Microsoft.ApplicationInsights.xml
+G:\QL_Kho\QL_Kho\bin\Microsoft.AI.DependencyCollector.xml
+G:\QL_Kho\QL_Kho\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\QL_Kho\QL_Kho\bin\Microsoft.AI.WindowsServer.xml
+G:\QL_Kho\QL_Kho\bin\Microsoft.AI.Web.xml
+G:\QL_Kho\QL_Kho\obj\Debug\QL_Kho.csprojResolveAssemblyReference.cache
+G:\QL_Kho\QL_Kho\obj\Debug\QL_Kho.csproj.CoreCompileInputs.cache
+G:\QL_Kho\QL_Kho\obj\Debug\QL_Kho.csproj.CopyComplete
+G:\QL_Kho\QL_Kho\obj\Debug\QL_Kho.dll
+G:\QL_Kho\QL_Kho\obj\Debug\QL_Kho.pdb
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\ApplicationInsights.config
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\QL_Kho.dll.config
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\QL_Kho.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\QL_Kho.pdb
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Antlr3.Runtime.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\EntityFramework.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\EntityFramework.SqlServer.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.Web.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Newtonsoft.Json.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\System.Web.Helpers.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\System.Web.Mvc.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\System.Web.Optimization.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\System.Web.Razor.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\System.Web.WebPages.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\WebGrease.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\EntityFramework.xml
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\EntityFramework.SqlServer.xml
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\System.Web.Helpers.xml
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\System.Web.Mvc.xml
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\System.Web.Optimization.xml
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\System.Web.Razor.xml
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\System.Web.WebPages.xml
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Antlr3.Runtime.pdb
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Newtonsoft.Json.xml
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\bin\Microsoft.AI.Web.xml
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\obj\Debug\QL_Kho.csprojResolveAssemblyReference.cache
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\obj\Debug\QL_Kho.csproj.CoreCompileInputs.cache
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\obj\Debug\QL_Kho.csproj.CopyComplete
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\obj\Debug\QL_Kho.dll
+C:\Users\Mi Mi\Desktop\QL_Kho\QL_Kho\obj\Debug\QL_Kho.pdb
+E:\QL_Kho(sau)\QL_Kho\bin\ApplicationInsights.config
+E:\QL_Kho(sau)\QL_Kho\bin\QL_Kho.dll.config
+E:\QL_Kho(sau)\QL_Kho\bin\QL_Kho.dll
+E:\QL_Kho(sau)\QL_Kho\bin\QL_Kho.pdb
+E:\QL_Kho(sau)\QL_Kho\bin\Antlr3.Runtime.dll
+E:\QL_Kho(sau)\QL_Kho\bin\EntityFramework.dll
+E:\QL_Kho(sau)\QL_Kho\bin\EntityFramework.SqlServer.dll
+E:\QL_Kho(sau)\QL_Kho\bin\Microsoft.AI.Agent.Intercept.dll
+E:\QL_Kho(sau)\QL_Kho\bin\Microsoft.AI.DependencyCollector.dll
+E:\QL_Kho(sau)\QL_Kho\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\QL_Kho(sau)\QL_Kho\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\QL_Kho(sau)\QL_Kho\bin\Microsoft.AI.Web.dll
+E:\QL_Kho(sau)\QL_Kho\bin\Microsoft.AI.WindowsServer.dll
+E:\QL_Kho(sau)\QL_Kho\bin\Microsoft.ApplicationInsights.dll
+E:\QL_Kho(sau)\QL_Kho\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\QL_Kho(sau)\QL_Kho\bin\Microsoft.Web.Infrastructure.dll
+E:\QL_Kho(sau)\QL_Kho\bin\Newtonsoft.Json.dll
+E:\QL_Kho(sau)\QL_Kho\bin\System.Web.Helpers.dll
+E:\QL_Kho(sau)\QL_Kho\bin\System.Web.Mvc.dll
+E:\QL_Kho(sau)\QL_Kho\bin\System.Web.Optimization.dll
+E:\QL_Kho(sau)\QL_Kho\bin\System.Web.Razor.dll
+E:\QL_Kho(sau)\QL_Kho\bin\System.Web.WebPages.Deployment.dll
+E:\QL_Kho(sau)\QL_Kho\bin\System.Web.WebPages.dll
+E:\QL_Kho(sau)\QL_Kho\bin\System.Web.WebPages.Razor.dll
+E:\QL_Kho(sau)\QL_Kho\bin\WebGrease.dll
+E:\QL_Kho(sau)\QL_Kho\bin\EntityFramework.xml
+E:\QL_Kho(sau)\QL_Kho\bin\EntityFramework.SqlServer.xml
+E:\QL_Kho(sau)\QL_Kho\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\QL_Kho(sau)\QL_Kho\bin\System.Web.Helpers.xml
+E:\QL_Kho(sau)\QL_Kho\bin\System.Web.Mvc.xml
+E:\QL_Kho(sau)\QL_Kho\bin\System.Web.Optimization.xml
+E:\QL_Kho(sau)\QL_Kho\bin\System.Web.Razor.xml
+E:\QL_Kho(sau)\QL_Kho\bin\System.Web.WebPages.xml
+E:\QL_Kho(sau)\QL_Kho\bin\System.Web.WebPages.Deployment.xml
+E:\QL_Kho(sau)\QL_Kho\bin\System.Web.WebPages.Razor.xml
+E:\QL_Kho(sau)\QL_Kho\bin\Antlr3.Runtime.pdb
+E:\QL_Kho(sau)\QL_Kho\bin\Newtonsoft.Json.xml
+E:\QL_Kho(sau)\QL_Kho\bin\Microsoft.ApplicationInsights.xml
+E:\QL_Kho(sau)\QL_Kho\bin\Microsoft.AI.DependencyCollector.xml
+E:\QL_Kho(sau)\QL_Kho\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\QL_Kho(sau)\QL_Kho\bin\Microsoft.AI.WindowsServer.xml
+E:\QL_Kho(sau)\QL_Kho\bin\Microsoft.AI.Web.xml
+E:\QL_Kho(sau)\QL_Kho\obj\Debug\QL_Kho.csprojResolveAssemblyReference.cache
+E:\QL_Kho(sau)\QL_Kho\obj\Debug\QL_Kho.csproj.CoreCompileInputs.cache
+E:\QL_Kho(sau)\QL_Kho\obj\Debug\QL_Kho.dll
+E:\QL_Kho(sau)\QL_Kho\obj\Debug\QL_Kho.pdb
+E:\QL_Kho(sau)\QL_Kho\bin\PagedList.dll
+E:\QL_Kho(sau)\QL_Kho\bin\PagedList.Mvc.dll
+E:\QL_Kho(sau)\QL_Kho\bin\PagedList.xml
+E:\QL_Kho(sau)\QL_Kho\bin\PagedList.Mvc.xml

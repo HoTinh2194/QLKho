@@ -1,0 +1,52 @@
+﻿@model IEnumerable<QL_Kho.Models.Phieuxuat>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2>Quản lí phiếu xuất hàng</h2>
+
+<div class="col-md-4">
+    <p><a class="btn btn-success" href="/CTPhieu/IndexPX">Chi Tiết Phiếu Xuất &raquo;</a></p>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+</div>
+<table class="table" border="1">
+    <tr>
+        <th style="width:150px">
+            Số phiếu xuất
+        </th>
+        <th style="width:150px">
+           Ngày lập phiếu
+        </th>
+        <th style="width:100px">
+           Nhân viên
+        </th>
+        <th style="width:200px"></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaXuat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ngaylap)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NhanVien)
+        </td>
+        <td style="text-align:center">
+
+            <a href="@Url.Action("Details",new { id = item.MaXuat })">
+                <button type="button" class="btn btn-info ">Chi tiết phiếu</button>
+            </a>
+           
+
+        </td>
+    </tr>
+}
+
+</table>
